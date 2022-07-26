@@ -1,0 +1,90 @@
+body {
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.main {
+  border: 3px solid black;
+}
+
+.heading h1 {
+  font-size: 48px;
+  font-weight: 100;
+  padding-left: 3%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 7%;
+}
+
+.subtitle {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+
+.refresh {
+  border: 2px solid black;
+  padding: 1%;
+  background-color: transparent;
+  box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.75);
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-ul {
+  border: 3px solid black;
+  width: 60%;
+}
+
+.li {
+  list-style: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 20px;
+}
+
+form input {
+  border: 2px solid black;
+  padding: 2%;
+}
+
+form input :placeholder {
+  font-weight: bold;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+form button {
+  width: 20%;
+  right: 0%;
+  padding: 2%;
+  border: 2px solid black;
+}
+
+footer {
+  background-color: antiquewhite;
+  height: 50px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
