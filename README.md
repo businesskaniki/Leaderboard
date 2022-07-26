@@ -1,52 +1,44 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> Description the project.
+> this is a website that helps you keep scores
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- html
+- css
+- javascript
 
 
-## Getting Started
+## to get started run the following commands on your terminal
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+```
+git clone https://github.com/businesskaniki/Leaderboard.git
 
+```
+```
+cd Leaderbard
 
-To get a local copy up and running follow these simple example steps.
+```
+```
+npm init -y
 
-### Prerequisites
+```
+- install necesarry modules and then run
 
-### Setup
+```
 
-### Install
+npm start
 
-### Usage
+```
 
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+👤 **nicholas**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
