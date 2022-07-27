@@ -21,20 +21,11 @@
         <div class="scores">
           <div class="subtitle">
             <h3>Recent scores</h3>
-            <button class="refresh">Refresh</button>
+            <button type="button" onclick="window.location.reload();" class="refresh">Refresh</button>
           </div>
           <div class="data">
             <ul class="data-ul">
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
-                <li class="li">list</li>
+                
             </ul>
           </div>
         </div>
@@ -45,9 +36,9 @@
             <div class="form">
                 <form>
                     <input type="text" id="name" placeholder="your name">
-                    <input type="text" id="score" placeholder="your score">
+                    <input type="number" id="score" placeholder="your score">
                     <div class="btn">
-                        <button type="submit">submit</button>
+                        <button type="submit" id="submit">submit</button>
                     </div>
                 </form>
             </div>
