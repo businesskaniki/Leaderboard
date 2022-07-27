@@ -6,7 +6,7 @@ const submit = document.getElementById('submit');
 const name = document.getElementById('name');
 const score = document.getElementById('score');
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded',  () => {
   getdata();
 });
 
